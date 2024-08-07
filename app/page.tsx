@@ -5,8 +5,9 @@ import { useState } from "react"
 import Image from "next/image"
 import Header from "./_components/header"
 import { Input } from "./_components/ui/input"
+import { Badge } from "./_components/ui/badge"
 import { Button } from "./_components/ui/button"
-import { Badge, SearchIcon } from "lucide-react"
+import { SearchIcon } from "lucide-react"
 import { Card, CardContent } from "./_components/ui/card"
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
     <div>
       <Header />
       <div className="p-5">
+        {/* TEXTO UDAÇÃO */}
         <h2 className="text-xl font-bold">Olá, Glécio!</h2>
         <p>Segunda-feira, 05 de agosto de 2024</p>
 
@@ -43,7 +45,6 @@ const Home = () => {
             {/* ESQUERDA */}
             <div className="flex flex-col gap-2 py-5">
               <Badge>Confirmado</Badge>
-              <h3>teste</h3>
             </div>
           </CardContent>
         </Card>
