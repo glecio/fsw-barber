@@ -22,7 +22,7 @@ const Home = async () => {
     <div>
       <Header />
       <div className="p-5">
-        {/* TEXTO UDAÇÃO */}
+        {/* TEXTO SAUDAÇÃO */}
         <h2 className="text-xl font-bold">Olá, Glécio!</h2>
         <p>Segunda-feira, 05 de agosto de 2024</p>
 
