@@ -42,9 +42,9 @@ const Home = () => {
         {/* AGENDAMENTO */}
 
         <Card className="mt-6">
-          <CardContent className="flex justify-between">
+          <CardContent className="flex justify-between p-0">
             {/* ESQUERDA */}
-            <div className="flex flex-col gap-2 py-5">
+            <div className="flex flex-col gap-2 py-5 pl-5">
               <Badge className="w-fit">Confirmado</Badge>
               <h3>Corte de Cabelo</h3>
               <div className="flex items-center gap-2">
@@ -59,10 +59,10 @@ const Home = () => {
             </div>
 
             {/* DIREITA */}
-            <div className="flex flex-col items-center justify-center border border-slate-400">
-              <p>Agosto</p>
-              <p className="py-1 text-5xl">05</p>
-              <p className="text-xl">21:00</p>
+            <div className="flex flex-col items-center justify-center border-l-2 border-solid px-5">
+              <p className="text-sm">Agosto</p>
+              <p className="text-2xl">05</p>
+              <p className="text-sm">21:00</p>
             </div>
           </CardContent>
         </Card>
