@@ -5,7 +5,6 @@ import { Card, CardContent } from "./ui/card"
 const BookingItem = () => {
   return (
     <>
-      {" "}
       {/* AGENDAMENTO */}
       <h2 className="mb-3 mt-6 text-xs font-bold uppercase text-gray-400">
         Agendamentos
