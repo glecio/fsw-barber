@@ -5,12 +5,15 @@ import Image from "next/image"
 import { Sheet, SheetTrigger } from "./ui/sheet"
 
 import SideBarSheet from "./sidebar-sheet"
+import Link from "next/link"
 
 const Header = () => {
   return (
     <Card>
       <CardContent className="flex flex-row items-center justify-between p-5">
-        <Image alt="Logo" src="/logo.png" width={120} height={18}></Image>
+        <Link href="/">
+          <Image alt="Logo" src="/logo.png" width={120} height={18} />
+        </Link>
         <Sheet>
           <SheetTrigger asChild>
             <Button size="icon" variant="outline">

@@ -6,7 +6,7 @@ interface QuickSearchOption {
 export const quickSearhOptions: QuickSearchOption[] = [
   {
     imageUrl: "/cabelo.svg",
-    title: "Cabelo",
+    title: "Corte",
   },
   {
     imageUrl: "/barba.svg",
@@ -30,6 +30,6 @@ export const quickSearhOptions: QuickSearchOption[] = [
   },
   {
     imageUrl: "/acabamento.svg",
-    title: "Acabamento",
+    title: "Pezinho",
   },
 ]
