@@ -60,7 +60,7 @@ const SideBarSheet = () => {
                 <DialogHeader className="gap-2">
                   <DialogTitle>Login</DialogTitle>
                   <DialogDescription>
-                    Conecte-se usand osua conta Google!
+                    Conecte-se usando sua conta Google!
                   </DialogDescription>
                 </DialogHeader>
                 <Button
