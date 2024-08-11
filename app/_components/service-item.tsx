@@ -119,7 +119,6 @@ const ServiceItem = ({ service, barbershop }: ServiceItemProps) => {
 
       await createBooking({
         serviceId: service.id,
-        userId: (data?.user as any).id,
         date: newDate,
       })
       handleBookingsSheetOpenChage()
@@ -131,9 +130,9 @@ const ServiceItem = ({ service, barbershop }: ServiceItemProps) => {
 
   const handleBookingClick = () => {
     if (data?.user) {
-      setBookingSheetIsOpen(true)
+      return setBookingSheetIsOpen(true)
     }
-    setSignInDialogIsOpen(true)
+    return setSignInDialogIsOpen(true)
   }
 
   return (
